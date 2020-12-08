@@ -1,6 +1,7 @@
 ---
 title: "Bash Curly Brace Expansion"
 date: 2020-12-08T17:10:23-05:00
+author: "Darshan Shaligram"
 ---
 
 Bash's [curly-brace expansion](https://www.gnu.org/software/bash/manual/html_node/Brace-Expansion.html)
