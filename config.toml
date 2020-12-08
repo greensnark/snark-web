@@ -1,0 +1,4 @@
+baseURL = "https://loom.shalott.org/"
+languageCode = "en-us"
+title = "Darshan Shaligram"
+theme = "tale"
