@@ -1,7 +1,7 @@
 baseURL = "https://loom.shalott.org/"
 languageCode = "en-us"
-title = "Darshan Shaligram"
+title = "Fractal Debugging"
 theme = "tale"
 
 [params]
-AuthorName = "Darshan Shaligram"
+Author = "Darshan Shaligram"
