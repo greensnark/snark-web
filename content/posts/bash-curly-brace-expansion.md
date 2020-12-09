@@ -4,7 +4,7 @@ date: 2020-12-08T17:10:23-05:00
 author: "Darshan Shaligram"
 ---
 
-Bash's [curly-brace expansion](https://www.gnu.org/software/bash/manual/html_node/Brace-Expansion.html)
+Bash/Zsh [curly-brace expansion](https://www.gnu.org/software/bash/manual/html_node/Brace-Expansion.html)
 is simple but powerful: each permutation enclosed in braces is expanded,
 recursively, *before* [glob expansion](https://tldp.org/LDP/abs/html/globbingref.html):
 

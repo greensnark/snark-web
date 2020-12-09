@@ -4,11 +4,11 @@ date: 2020-12-08T18:33:59-05:00
 author: "Darshan Shaligram"
 ---
 
-When working on the command-line, it's often useful to be use the
-system clipboard to paste input to a command-line tool, or to copy output from
-the command-line.
+When working on the command-line, it's often useful to paste from the system
+clipboard to a command-line tool, or to copy output from the command-line into
+your system clipboard.
 
-On macOS, `pbcopy` and `pbpaste` do this. For instance if you have a string in
+On macOS, `pbcopy` and `pbpaste` do this. For instance if you have text in
 your clipboard you'd like to uppercase, a low-budget way of doing that is:
 
 ```sh
