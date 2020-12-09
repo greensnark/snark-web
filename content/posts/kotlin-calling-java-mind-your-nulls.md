@@ -47,3 +47,11 @@ religiously [add JSR-305 nullability annotations to Java code that faces
 Kotlin](https://kotlinlang.org/docs/reference/java-interop.html#jsr-305-support) as
 the Kotlin-Java interop page suggests, and to be vigilant when reviewing code
 with Kotlin-Java boundaries.
+
+```java
+import javax.annotation.Nonnull;
+
+...
+
+    public void addPerson(@Nonnull Person newPerson);
+```
