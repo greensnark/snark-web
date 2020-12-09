@@ -1,6 +1,7 @@
 ---
 title: "Program for Yourself First"
 date: 2020-12-09T14:46:00-05:00
+author: "Darshan Shaligram"
 ---
 
 Do you program computers? Program for yourself, _first_.
