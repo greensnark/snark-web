@@ -1,7 +1,13 @@
 baseURL = "https://loom.shalott.org/snark/"
 languageCode = "en-us"
 title = "Fractal Debugging"
-theme = "tale"
+theme = "hyde"
 
 [params]
 Author = "Darshan Shaligram"
+themeColor = "theme-base-08"
+layoutReverse = true
+
+[markup]
+    [markup.highlight]
+        style = "solarized-light"

@@ -34,7 +34,8 @@ data class Person(val name: String)
 Java code can then try to new up a `Person` as:
 
 ```java
-    final var person = new Person(name); // What happens when name is null?
+    final var person = new Person(name);
+    // What happens when name is null?
 ```
 
 Which will provoke a `NullPointerException` from the Kotlin code. Not exactly
@@ -43,7 +44,7 @@ type-safe, and quite entertaining when it happens in production.
 ## The Workaround
 
 There's no great fix for this problem. The best workaround I've found is to
-religiously [add JSR-305 nullability annotations to Java code that faces
+carefully [add JSR-305 nullability annotations to Java code that faces
 Kotlin](https://kotlinlang.org/docs/reference/java-interop.html#jsr-305-support) as
 the Kotlin-Java interop page suggests, and to be vigilant when reviewing code
 with Kotlin-Java boundaries.
