@@ -40,6 +40,7 @@
 }
 .site__title {
   font-size: $site__title-font-size;
+  font-weight: bold;
   font-family: $header-font-family;
   margin-bottom: 0.5rem;
   a:hover {

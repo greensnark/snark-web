@@ -1,3 +1,7 @@
+input#menuToggle + label {
+  font-family: $header-font-family;
+}
+
 // mobile ~320..480px
 // 320px ~ 16rem/16px ~ 18.8235/17px ~ 17.7778/18px
 // 480px ~ 30rem/16px ~ 28.2353rem/17px ~ 26.6667rem/18px
