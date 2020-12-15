@@ -4,7 +4,11 @@ date: 2020-12-11T16:43:36-05:00
 ---
 
 When writing code that needs the current time, don't hardcode a reference to
-the current time. Don't do this:
+the current time.
+
+<!--more-->
+
+Don't do this:
 
 ```kt
 class Appointments {
@@ -62,7 +66,7 @@ class AppointmentsTest {
             currentTime,
             appointments
                 .makeAppointment(
-                    forPerson = liseMeitner, 
+                    forPerson = liseMeitner,
                     at = currentTime)
                 .createdAt)
     }

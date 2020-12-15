@@ -2,6 +2,7 @@
 
 .section__title {
 	font-size: $section__title-font-size;
+        font-family: $header-font-family;
 }
 
 .post-list__item {
@@ -11,11 +12,13 @@
 .item__title--big {
 	display: block;
 	font-size: $item__title-big-font-size;
+        font-family: $header-font-family;
 	line-height: 1.25;
 }
 
 .item__title--small {
 	font-size: 1rem;
+        font-family: $header-font-family;
 }
 
 .item__date {

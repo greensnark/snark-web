@@ -8,6 +8,8 @@ Bash/Zsh [curly-brace expansion](https://www.gnu.org/software/bash/manual/html_n
 is simple but powerful: each permutation enclosed in braces is expanded,
 recursively, *before* [glob expansion](https://tldp.org/LDP/abs/html/globbingref.html):
 
+<!--more-->
+
 ```sh
 $ echo a{b,c,d{e,f}}g
 abg acg adeg adfg

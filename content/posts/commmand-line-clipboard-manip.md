@@ -8,8 +8,13 @@ When working on the command-line, it's often useful to paste from the system
 clipboard to a command-line tool, or to copy output from the command-line into
 your system clipboard.
 
-On macOS, `pbcopy` and `pbpaste` do this. For instance if you have text in
-your clipboard you'd like to uppercase, a low-budget way of doing that is:
+On macOS, `pbcopy` and `pbpaste` do this. On Linux, you can use `xclip` or
+`xsel`.
+
+<!--more-->
+
+If you have text in your clipboard you'd like to uppercase, a low-budget way of
+doing that is:
 
 ```sh
 $ pbpaste | tr a-z A-Z

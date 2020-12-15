@@ -9,6 +9,8 @@ places in your code where new Kotlin code has to call existing Java code, or
 vice-versa. Kotlin's default behavior for Java interop poses a subtle, but
 significant safety problem with nullability.
 
+<!--more-->
+
 If you have Kotlin code calling Java code with this signature:
 
 ```java

@@ -6,7 +6,9 @@ date: 2020-12-10T17:12:07-05:00
 When programming, you may have to work with dates and times in different
 time-zones, or look at events in calendars in the past or future. You can do all
 of these using GUI tools, but your Unix command-line is there for you (and
-easier to script):
+easier to script).
+
+<!--more-->
 
 ```sh
 $ date
