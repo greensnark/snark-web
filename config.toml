@@ -7,6 +7,9 @@ theme = "hyde"
 Author = "Darshan Shaligram"
 themeColor = "theme-base-08"
 layoutReverse = true
+description = "Low-entropy code"
+authorimage = "greensnark.png"
+copyright = "Darshan Shaligram"
 
 [markup]
     [markup.highlight]

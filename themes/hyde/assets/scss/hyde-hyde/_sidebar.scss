@@ -3,7 +3,7 @@
   color: rgb(255, 255, 255);
   color: rgba(255, 255, 255, 0.5);
   padding: 2rem 0.2rem;
-  text-align: center;
+  text-align: left;
   a {
     color: $gray-1;
     border: none;
@@ -15,7 +15,7 @@
     }
   }
   .sidebar-about {
-    text-align: center;
+    text-align: left;
   }
   .author-image {
     display: block;
@@ -49,8 +49,10 @@
 }
 
 .site__description {
-  font-size: 1.285rem;
-  font-weight: 300;
+  font-size: 1rem;
+  font-family: $header-font-family;
+  color: #fff;
+  text-align: center;
 }
 
 .social {
@@ -82,6 +84,9 @@
 
 .copyright {
   padding-top: 1rem;
+  font-weight: bold;
+  color: #fff;
+  font-family: $header-font-family;
 	@extend %small-center-text;
 }
 .builtwith {
