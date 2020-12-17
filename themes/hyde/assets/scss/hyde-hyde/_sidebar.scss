@@ -43,8 +43,14 @@
   font-weight: bold;
   font-family: $header-font-family;
   margin-bottom: 0.5rem;
+  text-decoration: underline;
+  a {
+      text-decoration-color: #cc6162;
+  }
   a:hover {
     border: none;
+    color: #000;
+    text-decoration-color: #000;
   }
 }
 

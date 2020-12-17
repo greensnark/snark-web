@@ -142,3 +142,9 @@ $  LC_ALL=zh_CN.UTF-8 cal 1980
 
 (Again, this works correctly only if you have the locale for simplified Chinese
 available on your computer.)
+
+`cal` also represents the cut-over from the Julian to Gregorian calendar. Try:
+
+```sh
+$ cal 9 1752
+```
