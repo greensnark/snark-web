@@ -1,5 +1,5 @@
 ---
-title: "Exported vs Unexported Shell Variables"
+title: "Exported vs Un-exported Shell Variables"
 date: 2020-12-21T16:04:34-05:00
 ---
 
