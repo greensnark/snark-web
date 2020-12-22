@@ -4,7 +4,11 @@ date: 2020-12-22T16:45:08-05:00
 ---
 
 PostgreSQL offers multiple ways of quoting string literals. Most programmers
-are familiar with the first, but not the other forms. Let's look at them:
+are familiar with the first, but not the other forms. 
+
+<!--more-->
+
+Let's look at them:
 
 ## [Single-quoted string constants](https://www.postgresql.org/docs/current/sql-syntax-lexical.html#SQL-SYNTAX-STRINGS):
 
