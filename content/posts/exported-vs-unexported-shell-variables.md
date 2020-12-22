@@ -140,7 +140,7 @@ shell:
 
 ```sh
 $ AWS_DEFAULT_REGION=eu-west-1 ec2-ip-ls
-$ echo AWS_DEFAULT_REGION # unchanged
+$ echo $AWS_DEFAULT_REGION # unchanged
 ```
 
 This is particularly handy for use with commands like date:
