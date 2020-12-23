@@ -36,7 +36,7 @@ $ psql
 (1 row)
 ```
 
-## [C-style String Constants](https://www.postgresql.org/docs/current/sql-syntax-lexical.html#SQL-SYNTAX-STRINGS-ESCAPE)
+## [C-style string constants](https://www.postgresql.org/docs/current/sql-syntax-lexical.html#SQL-SYNTAX-STRINGS-ESCAPE)
 
 Postgres also supports C-style string quoting using `E'<text>'` (or
 `e'<text>'`), where you escape characters by prefixing them with `\`:
@@ -89,7 +89,7 @@ Unicode escapes also support [customizing the escape character with the
 which is occasionally handy if, say, you're trying to feed `psql` text via a
 command-line pipeline, and escaping `\` is giving you a migraine.
 
-## [Dollar-Quoted String Constants](https://www.postgresql.org/docs/current/sql-syntax-lexical.html#SQL-SYNTAX-DOLLAR-QUOTING)
+## [Dollar-quoted string constants](https://www.postgresql.org/docs/current/sql-syntax-lexical.html#SQL-SYNTAX-DOLLAR-QUOTING)
 
 Dollar-quoted strings are extremely useful when you must put SQL or PL/pgSQL in
 a string, because quoting SQL gets insane fast:
