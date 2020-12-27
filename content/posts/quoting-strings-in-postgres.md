@@ -108,9 +108,9 @@ extends from `$$` to its paired closing `$$`. This is perfectly suited to defini
 
 ```
 $ psql
-$ CREATE OR REPLACE FUNCTION foo() RETURNS text IMMUTABLE LANGUAGE SQL AS $$ SELECT 'foo' $$;
+# CREATE OR REPLACE FUNCTION foo() RETURNS text IMMUTABLE LANGUAGE SQL AS $$ SELECT 'foo' $$;
 CREATE FUNCTION
-$ SELECT foo();
+# SELECT foo();
  foo
 -----
  foo
@@ -123,9 +123,9 @@ from the starting `$tag$` to its closing `$tag$`:
 
 ```
 $ psql
-$ CREATE OR REPLACE FUNCTION bar() RETURNS text IMMUTABLE LANGUAGE SQL AS $body$ SELECT $$bar$$ $body$;
+# CREATE OR REPLACE FUNCTION bar() RETURNS text IMMUTABLE LANGUAGE SQL AS $body$ SELECT $$bar$$ $body$;
 CREATE FUNCTION
-$ SELECT bar();
+# SELECT bar();
  bar
 -----
  bar
@@ -136,7 +136,7 @@ Dollar-strings are also handy outside of defining functions, but less necessary 
 
 ```
 $ psql
-$ SELECT $quote$He said, 'Give me lots of $$$!'$quote$;
+# SELECT $quote$He said, 'Give me lots of $$$!'$quote$;
             ?column?
 ---------------------------------
  He said, 'Give me lots of $$$!'
