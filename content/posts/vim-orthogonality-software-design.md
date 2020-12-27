@@ -107,7 +107,7 @@ with other components in ways that the author of the component may not have
 envisioned.
 
 Let Vim's clear separation of *what's being done* from *what it's being done
-on* inspire you to write programs that have that same separation. 
+on* inspire you to write programs that have that same separation of concerns. 
 
 The components that you build to write such programs will let you easily build
 *similar* programs (viz. when requirements change, you can meet them easily
