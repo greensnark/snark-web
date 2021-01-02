@@ -1,5 +1,5 @@
 ---
-title: "Commmand Line Clipboard Manipulation"
+title: "Command Line Clipboard Manipulation"
 date: 2020-12-08T18:33:59-05:00
 author: "Darshan Shaligram"
 ---
