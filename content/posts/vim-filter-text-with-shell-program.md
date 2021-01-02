@@ -40,8 +40,8 @@ select person.first_name,
        person.email,
        person.phone,
        person.active,
-       perm.name,
-       perm.created_at
+       permission.name,
+       permission.created_at
 from person
 join person_permission on person.id = person_permission.person_id
 join permission on person_permission.permission_id = permission.id
