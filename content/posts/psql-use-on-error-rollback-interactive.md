@@ -10,7 +10,7 @@ When working interactively with a database, typos in transactions can be
 extremely annoying. Let's say you make a mistake on statement 2 of a
 transaction:
 
-```sh
+```
 $ psql
 psql (13.1)
 Type "help" for help.
@@ -36,7 +36,7 @@ Conveniently, `psql` has a solution: run it with
 `ON_ERROR_ROLLBACK=interactive`, and errors in transactions are handled more
 reasonably:
 
-```sh
+```
 $ psql --set=ON_ERROR_ROLLBACK=interactive
 Type "help" for help.
 
