@@ -7,8 +7,11 @@ date: 2021-01-26T17:38:51-05:00
 scripting, and to work with databases interactively.
 
 When working interactively with a database, typos in transactions can be
-extremely annoying. Let's say you make a mistake on statement 2 of a
-transaction:
+extremely annoying.
+
+<!--more-->
+
+Let's say you make a mistake on statement 2 of a transaction:
 
 ```
 $ psql
