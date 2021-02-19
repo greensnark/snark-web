@@ -64,7 +64,7 @@ val String.zone: ZoneId get() = ZoneId.of(this)
 We can then use the extension from Java as:
 
 ```java
-package org.foobar
+package org.foobar;
 
 import static org.foobar.ZoneExtensions.getZone;
 
