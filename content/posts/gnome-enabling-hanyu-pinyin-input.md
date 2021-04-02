@@ -7,7 +7,7 @@ date: 2021-04-02T11:29:56-04:00
 Or: how to reset your Gnome configuration with
 [`gsettings`](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/desktop_migration_and_administration_guide/configuration-overview-gsettings-dconf)
 
-<!-- more -->
+<!--more-->
 
 I've been learning Chinese for a while on Duolingo, but I had some trouble
 getting my computer running [Arch Linux](https://archlinux.org/) with
