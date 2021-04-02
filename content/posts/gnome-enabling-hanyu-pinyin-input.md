@@ -83,7 +83,7 @@ Stack trace of thread 2944:
 ```
 
 Some googling later, I found this helpful issue:
-https://bugzilla.redhat.com/show_bug.cgi?id=1933397, which supplies a
+https://bugzilla.redhat.com/show_bug.cgi?id=1933397 which supplies a
 workaround:
 
 ```
