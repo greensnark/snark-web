@@ -12,7 +12,8 @@
 .item__title--big {
 	display: block;
 	font-size: $item__title-big-font-size;
-        font-family: $header-font-family;
+	font-family: $header-font-family;
+	font-weight: 700;
 	line-height: 1.25;
 }
 
