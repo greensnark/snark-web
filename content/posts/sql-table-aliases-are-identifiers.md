@@ -55,7 +55,7 @@ FROM
     users billing_suspended_users
 WHERE
     billing_suspended_users.created_at < :now - INTERVAL '300 days'
-    EXISTS (
+    AND EXISTS (
         SELECT FROM
             memberships
         JOIN
